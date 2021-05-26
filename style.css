@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Blinker:wght@300&display=swap');
 
 header{
-	background:#b37a00;	
+	background:#be3839;	
 }
 body{
 	font-family: 'Blinker', sans-serif;
@@ -15,7 +15,7 @@ left: 1.5rem;
     top: 1.5rem;
     width: 200%;
     height: 500px;
-    background: rgba( 255, 255, 255, 0.25 );
+    background-color: rgba( 205, 33, 42, 0.25 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 11.0px );
     -webkit-backdrop-filter: blur( 11.0px );
