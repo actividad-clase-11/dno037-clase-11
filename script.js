@@ -12,7 +12,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
             document.getElementById("aca").innerHTML +=
                 '<div class="col-sm-6 col-md-4 col-lg-3"><div class="card h-100 shadow-sm"><img src="images/region-' +
                 (i + 1) +
-                '.jpg" class="card-img-top"/><div class="card-body"><a href="#" data-bs-toggle="modal" data-bs-target="#unModal"><h3 class="card-title fs-6">' +
+                '.png" class="card-img-top"/><div class="card-body"><a href="#" data-bs-toggle="modal" data-bs-target="#unModal"><h3 class="card-title fs-6">' +
                 region +
                 "</h3></div></div>";
         });
@@ -78,7 +78,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("nombreRegion").innerHTML = regiones[3];
+            document.getElementById("Región:").innerHTML = regiones[3];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -94,7 +94,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("nombreRegion").innerHTML = regiones[4];
+            document.getElementById("Región: Coquimbo, La Serena.").innerHTML = regiones[4];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -158,7 +158,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("nombreRegion").innerHTML = regiones[8];
+            document.getElementById("Region:Bío-Bío, Concepción").innerHTML = regiones[8];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
