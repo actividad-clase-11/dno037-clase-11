@@ -46,7 +46,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 15").innerHTML = regiones[1];
+            document.getElementById("nombreRegion").innerHTML = regiones[1];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -62,7 +62,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 1").innerHTML = regiones[2];
+            document.getElementById("nombreRegion").innerHTML = regiones[2];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -78,7 +78,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 2").innerHTML = regiones[3];
+            document.getElementById("nombreRegion").innerHTML = regiones[3];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -94,7 +94,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 3.").innerHTML = regiones[4];
+            document.getElementById("nombreRegion").innerHTML = regiones[4];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -110,7 +110,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 4").innerHTML = regiones[5];
+            document.getElementById("nombreRegion").innerHTML = regiones[5];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -126,7 +126,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 5").innerHTML = regiones[6];
+            document.getElementById("nombreRegion").innerHTML = regiones[6];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -142,7 +142,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region RM").innerHTML = regiones[7];
+            document.getElementById("nombreRegion").innerHTML = regiones[7];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -158,7 +158,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 6").innerHTML = regiones[8];
+            document.getElementById("nombreRegion").innerHTML = regiones[8];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -174,7 +174,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 7").innerHTML = regiones[9];
+            document.getElementById("nombreRegion").innerHTML = regiones[9];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -190,7 +190,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 8").innerHTML = regiones[10];
+            document.getElementById("nombreRegion").innerHTML = regiones[10];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -206,7 +206,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 9").innerHTML = regiones[11];
+            document.getElementById("nombreRegion").innerHTML = regiones[11];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -222,7 +222,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 14").innerHTML = regiones[12];
+            document.getElementById("nombreRegion").innerHTML = regiones[12];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -238,7 +238,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 10").innerHTML = regiones[13];
+            document.getElementById("nombreRegion").innerHTML = regiones[13];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -254,7 +254,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 11").innerHTML = regiones[14];
+            document.getElementById("nombreRegion").innerHTML = regiones[14];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
@@ -270,7 +270,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
                 }
             });
             console.log(info);
-            document.getElementById("Region 12").innerHTML = regiones[15];
+            document.getElementById("nombreRegion").innerHTML = regiones[15];
             document.getElementById("contenido").innerHTML = '<table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
