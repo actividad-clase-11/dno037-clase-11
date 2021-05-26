@@ -6,5 +6,20 @@ header{
 }
 body{
 	font-family: 'Blinker', sans-serif;
+	background-image: url(images/fondo.png);
 }
 
+main {
+    
+    left: 1.5rem;
+    top: 1.5rem;
+    width: 70%;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.15);
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 3px 3px;
+    margin: 0 auto;
+    box-shadow: 0 0 5px rgba(200, 200, 200, 0.7);
+    justify-content: space-between;
+    
+}
