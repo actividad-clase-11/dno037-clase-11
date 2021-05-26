@@ -30,7 +30,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
             });
             console.log(info);
             document.getElementById("nombreRegion").innerHTML = regiones[0];
-            document.getElementById("contenido").innerHTML = ''<img src="images/region-1.jpg" class="w-100"/><table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
+            document.getElementById("contenido").innerHTML = '<img src="images/region-1.jpg" class="w-100"/><table class="table"><thead><tr><th class="text-center">Distrito</th><th>Comuna</th><th class="text-end">Electores</th></tr></thead><tbody></tbody><table class="table">';
             var total = 0;
             info.forEach(function (elemento) {
                 document.getElementsByTagName("tbody")[0].innerHTML +=
