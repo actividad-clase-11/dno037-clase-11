@@ -1,8 +1,9 @@
 @charset "UTF-8";
-
-<style>@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap');</style>
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:wght@300&display=swap')
 
 header{
-	background:#A2A2A2;
+	background:#A2A2A2;	
+}
+body{
 	font-family: 'Sarabun', sans-serif;
 }
