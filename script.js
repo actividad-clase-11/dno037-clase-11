@@ -9,7 +9,7 @@ Papa.parse("https://raw.githubusercontent.com/actividad-clase-11/dno037-clase-11
         regiones.splice(0, regiones.length, ...new Set(regiones));
         console.log(regiones);
         regiones.forEach(function (region, i) {
-            document.getElementById("aca").innerHTML +=
+            document.getElementById("territorios-electorales.csv").innerHTML +=
                 '<div class="col-sm-6 col-md-4 col-lg-3"><div class="card h-100 shadow-sm"><img src="images/region-' +
                 (i + 1) +
                 '.jpg" class="card-img-top"/><div class="card-body"><a href="#" data-bs-toggle="modal" data-bs-target="#unModal"><h3 class="card-title fs-6">' +
